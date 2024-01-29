@@ -1,0 +1,7 @@
+server:
+  port: 8080 # Порт сервера
+  error:
+    include-message: always # Выводить сообщение в отловленной ошибке
+
+application:
+  max-allowed-books: 3 # настойка максимальное количество книг выданных читателю
